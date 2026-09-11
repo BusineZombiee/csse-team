@@ -20,21 +20,21 @@ class GameLevelDesert {
 
 
         // Background data
-        const image_src_desert = path + "/images/projects/gamify/desert.png"; // be sure to include the path
+        const image_src_desert = path + "/images/projects/gamify/spacebg1.png"; // be sure to include the path
         const image_data_desert = {
-            name: 'desert',
-            greeting: "Welcome to the desert!  It is hot and dry here, but there are many adventures to be had!",
+            name: 'level 1',
+            greeting: "Welcome to mars!  It is hot and dry here, but there are many fun adventures here!",
             src: image_src_desert,
             pixels: {height: 580, width: 1038}
         };
 
 
         // Player data for Chillguy
-        const sprite_src_chillguy = path + "/images/projects/gamify/chillguy.png"; // be sure to include the path
+        const sprite_src_chillguy = path + "/images/projects/gamify/kirby.png"; // be sure to include the path
         const CHILLGUY_SCALE_FACTOR = 5;
         const sprite_data_chillguy = {
             id: 'Chill Guy',
-            greeting: "Hi I am Chill Guy, the desert wanderer. I am looking for wisdom and adventure!",
+            greeting: "Hi I am kirby, I am suck at this planet and need a way to leave.",
             src: sprite_src_chillguy,
             SCALE_FACTOR: CHILLGUY_SCALE_FACTOR,
             STEP_FACTOR: 1000,
@@ -365,7 +365,7 @@ class GameLevelDesert {
         };
 
 
-        // Bitcoin NPC configuration
+        // Bitcoin NPC configurationt
         const sprite_src_crypto = path + "/images/projects/gamify/bitcoin.png";
         const sprite_greet_crypto = "*cha-ching*";
         const sprite_data_crypto = {
